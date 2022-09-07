@@ -72,7 +72,7 @@ while restart == 'y':
      
 
     move = True
-    while move == True:
+    while move:
         
         user_score = calculate_score(user_cards)
         computer_score = calculate_score(computer_cards)
